@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.RegistrationController">
+   <children>
+      <Label layoutX="134.0" layoutY="72.0" prefHeight="25.0" prefWidth="49.0" text="Name:" />
+      <Label layoutX="134.0" layoutY="119.0" prefHeight="34.0" prefWidth="35.0" text="Login:" />
+      <Label layoutX="130.0" layoutY="171.0" prefHeight="34.0" prefWidth="57.0" text="Password:" />
+      <TextField fx:id="txtName" layoutX="226.0" layoutY="72.0" />
+      <TextField fx:id="txtLogin" layoutX="226.0" layoutY="124.0" />
+      <PasswordField fx:id="txtPassword" layoutX="226.0" layoutY="176.0" />
+      <Label layoutX="202.0" layoutY="29.0" prefHeight="17.0" prefWidth="149.0" text="Окно регистрации:" textFill="#c714a7" />
+      <Button fx:id="buttonReg" layoutX="404.0" layoutY="342.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="25.0" prefWidth="80.0" text="Registration" />
+      <Button fx:id="buttonQuit" layoutX="126.0" layoutY="342.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Вернуться" />
+      <Label fx:id="lblInfo" layoutX="145.0" layoutY="294.0" prefHeight="17.0" prefWidth="115.0" text="Статус:" />
+      <Label layoutX="138.0" layoutY="227.0" prefHeight="17.0" prefWidth="49.0" text="Role:" />
+      <TextField fx:id="txtRole" layoutX="226.0" layoutY="223.0" />
+   </children>
+</AnchorPane>
